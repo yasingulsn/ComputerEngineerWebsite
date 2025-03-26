@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akıllı Sulama Sistemi</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-green-600 text-white shadow-lg fixed w-full top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-xl font-bold">Akıllı Sulama Sistemi</div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#home" class="hover:text-green-200">Ana Sayfa</a>
+                    <a href="#technical" class="hover:text-green-200">Teknik Detaylar</a>
+                    <a href="#process" class="hover:text-green-200">Proje Süreçleri</a>
+                    <a href="#gallery" class="hover:text-green-200">Galeri</a>
+                    <a href="#downloads" class="hover:text-green-200">İndirilebilir Dosyalar</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Ana Sayfa -->
+    <section id="home" class="pt-20 pb-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <img src="C:\Users\Yasin\Downloads\WhatsApp Image 2025-03-27 at 00.22.38 (1).jpeg" alt="Proje Görseli" class="rounded-lg shadow-xl max-w-full h-auto">
+                </div>
+                <div class="md:w-1/2 md:pl-12" style="margin-top: -500px;">
+                    <h1 class="text-4xl font-bold text-green-600 mb-6">Akıllı Sulama Sistemi</h1>
+                    <p class="text-gray-600 mb-6">
+                        Raspberry Pi tabanlı otomatik sulama sistemimiz, bitkilerin sağlıklı büyümesi için gerekli tüm koşulları otomatik olarak kontrol eder ve yönetir.
+                    </p>
+                    <div class="bg-green-50 p-6 rounded-lg">
+                        <h2 class="text-xl font-bold text-green-600 mb-4">Ekip Üyeleri</h2>
+                        <ul class="space-y-2">
+                            <li class="flex items-center">
+                                <i class="fas fa-user text-green-600 mr-2"></i>
+                                <span>Yasin Gülşen</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-user text-green-600 mr-2"></i>
+                                <span>Mehmet Arif Boyraz</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-user text-green-600 mr-2"></i>
+                                <span>Sinem Sude Bolun</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-user text-green-600 mr-2"></i>
+                                <span>Enes Can Kotay</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-user text-green-600 mr-2"></i>
+                                <span>Burak Gürgil</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-user text-green-600 mr-2"></i>
+                                <span>Ümmügülsüm Şahin</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-user text-green-600 mr-2"></i>
+                                <span>Cemre Nida Aygün</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-user text-green-600 mr-2"></i>
+                                <span>Bahar Ericek</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-user text-green-600 mr-2"></i>
+                                <span>Zeynep Begüm Arı</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teknik Detaylar -->
+    <section id="technical" class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-green-600 mb-12">Teknik Detaylar</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-green-600 mb-4">Donanım Bileşenleri</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-microchip text-green-600 mr-2"></i>
+                            <span>Raspberry Pi 4B</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-thermometer-half text-green-600 mr-2"></i>
+                            <span>DHT11 Sıcaklık/Nem Sensörü</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-tint text-green-600 mr-2"></i>
+                            <span>Toprak Nem Sensörü</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-sun text-green-600 mr-2"></i>
+                            <span>LDR Işık Sensörü</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-green-600 mb-4">Yazılım Detayları</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fab fa-python text-green-600 mr-2"></i>
+                            <span>Python 3.9</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-code text-green-600 mr-2"></i>
+                            <span>RPi.GPIO Kütüphanesi</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-code-branch text-green-600 mr-2"></i>
+                            <span>Threading Modülü</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-desktop text-green-600 mr-2"></i>
+                            <span>LCD Kontrol Yazılımı</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-green-600 mb-4">Sistem Özellikleri</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-clock text-green-600 mr-2"></i>
+                            <span>Gerçek Zamanlı Monitoring</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-water text-green-600 mr-2"></i>
+                            <span>Otomatik Sulama</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-lightbulb text-green-600 mr-2"></i>
+                            <span>Akıllı Aydınlatma</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-chart-line text-green-600 mr-2"></i>
+                            <span>Veri Analizi</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proje Süreçleri -->
+    <section id="process" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-green-600 mb-12">Proje Süreçleri</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="relative">
+                    <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-green-200"></div>
+                    <div class="space-y-12">
+                        <div class="relative">
+                            <div class="absolute left-1/2 transform -translate-x-1/2 -mt-2">
+                                <div class="w-4 h-4 rounded-full bg-green-600"></div>
+                            </div>
+                            <div class="ml-8">
+                                <h3 class="text-xl font-bold text-green-600">Planlama ve Analiz</h3>
+                                <p class="text-gray-600 mt-2">
+                                    Proje gereksinimlerinin belirlenmesi ve sistem tasarımının planlanması aşaması.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <div class="absolute left-1/2 transform -translate-x-1/2 -mt-2">
+                                <div class="w-4 h-4 rounded-full bg-green-600"></div>
+                            </div>
+                            <div class="ml-8">
+                                <h3 class="text-xl font-bold text-green-600">Donanım Geliştirme</h3>
+                                <p class="text-gray-600 mt-2">
+                                    Sensör ve aktuatörlerin seçimi, devre tasarımı ve prototip üretimi.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <div class="absolute left-1/2 transform -translate-x-1/2 -mt-2">
+                                <div class="w-4 h-4 rounded-full bg-green-600"></div>
+                            </div>
+                            <div class="ml-8">
+                                <h3 class="text-xl font-bold text-green-600">Yazılım Geliştirme</h3>
+                                <p class="text-gray-600 mt-2">
+                                    Kontrol yazılımının geliştirilmesi ve sensör entegrasyonunun tamamlanması.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <div class="absolute left-1/2 transform -translate-x-1/2 -mt-2">
+                                <div class="w-4 h-4 rounded-full bg-green-600"></div>
+                            </div>
+                            <div class="ml-8">
+                                <h3 class="text-xl font-bold text-green-600">Test ve Optimizasyon</h3>
+                                <p class="text-gray-600 mt-2">
+                                    Sistemin test edilmesi ve performans optimizasyonunun yapılması.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri -->
+    <section id="gallery" class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-green-600 mb-12">Galeri</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="C:\Users\Yasin\Downloads\WhatsApp Image 2025-03-27 at 00.22.38 (5).jpeg" alt="Proje Görseli 1" class="w-full h-96 object-cover rounded-lg mb-4">
+                    <p class="text-gray-600 text-center">Yapım Aşaması</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="C:\Users\Yasin\Downloads\WhatsApp Image 2025-03-27 at 00.22.37 (1).jpeg" alt="Proje Görseli 2" class="w-full h-96 object-cover rounded-lg mb-4">
+                    <p class="text-gray-600 text-center">Sensör Bağlantıları</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="C:\Users\Yasin\Downloads\WhatsApp Image 2025-03-27 at 00.22.37.jpeg" alt="Proje Görseli 3" class="w-full h-96 object-cover rounded-lg mb-4">
+                    <p class="text-gray-600 text-center">Full Setup</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="C:\Users\Yasin\Downloads\WhatsApp Image 2025-03-27 at 00.22.38 (2).jpeg" alt="Proje Görseli 3" class="w-full h-96 object-cover rounded-lg mb-4">
+                    <p class="text-gray-600 text-center">Yapım Aşaması</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İndirilebilir Dosyalar -->
+    <!-- İndirilebilir Dosyalar -->
+<section id="downloads" class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-green-600 mb-12">İndirilebilir Dosyalar Ve Bağlantılar</h2>
+        <div class="max-w-2xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-6">
+                <a href="https://www.youtube.com/watch?v=FqxE-gNN8x4" target="_blank" class="bg-green-50 p-6 rounded-lg shadow-lg hover:bg-green-100 transition duration-300">
+                    <div class="flex items-center">
+                        <i class="fab fa-youtube text-4xl text-red-600 mr-4"></i>
+                        <div>
+                            <h3 class="text-xl font-bold text-green-600">Proje Sunumu</h3>
+                            <p class="text-gray-600">YouTube Bağlantısı</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="C:\Users\arif\VScode Project\AkıllıSulamaSistemi\Akıllı Sulama Sistemi Sunumu.docx" class="bg-green-50 p-6 rounded-lg shadow-lg hover:bg-green-100 transition duration-300">
+                    <div class="flex items-center">
+                        <i class="fas fa-file-pdf text-4xl text-green-600 mr-4"></i>
+                        <div>
+                            <h3 class="text-xl font-bold text-green-600">Proje Sunum</h3>
+                            <p class="text-gray-600">Sunum.pdf (1.8 MB)</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <p class="mb-4">© 2024 Akıllı Sulama Sistemi. Tüm hakları saklıdır.</p>
